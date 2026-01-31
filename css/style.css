@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #333038;
+  --accent-color: #8aa191;
+  --text-shadow: 2px 2px 4px #000000;
+}
+
+* {
+  font-family: Georgia, serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+section {
+  flex: 1;
+}
+
+.main {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: var(--accent-color);
+}
+
+.text {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#result {
+  color: red;
+  font-weight: bold;
+}
+
+.card {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.mustafa-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.mustafa-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+  letter-spacing: 0.3px;
+}
