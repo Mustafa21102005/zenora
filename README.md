@@ -39,7 +39,6 @@ Explore the landing page directly in your browser.
 
 📬 [Email Me](mailto:mustafa.azmi.khalil@gmail.com)
 
-- 💬 [WhatsApp](https://wa.me/966545117570)
-- 👾 [Reddit](https://www.reddit.com/user/mustafa_azmi)
+💬 [WhatsApp](https://wa.me/966545117570)
 
 Please feel free to star ⭐ this repo if you find it useful!
